@@ -1,0 +1,117 @@
+/* Divisez les checkboxes en lignes de 18 max */
+.checkbox-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: calc(18 * 2em);
+    overflow-y: auto;
+  }
+  
+  /* Encadrez chaque colonne avec une fine bordure noire */
+  .checkbox-column {
+    border: 1px solid white;
+    flex-basis: calc(100% / 3 - 2px);
+    margin: 1px;
+    padding: 5px;
+  }
+  /* CSS pour le titre */
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+  }
+  
+  /* CSS pour le sous-titre */
+  h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  input[type=checkbox] {
+    margin-right: 10px; /* Ajoute un espacement entre la checkbox et son label */
+  }
+  
+  label {
+    font-size: 16px; /* Change la taille de police du label */
+    cursor: pointer; /* Change le curseur de la souris en pointeur pour indiquer que le label est cliquable */
+  }
+  
+    
+/* Boutons noirs */
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+  
+/* Effet de survol pour les boutons */
+button:hover {
+    opacity: 0.8;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin-bottom: 20px;
+    margin: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: #333;
+    color: #FFF;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: auto
+  }
+
+  nav {
+    background-color: black; /* couleur de fond */
+    color: #fff; /* couleur du texte */
+    height: 50px; /* hauteur de la barre de navigation */
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav button {
+    background-color: #888888;; /* couleur de fond du bouton */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; /* arrondir les coins du bouton */
+    transition: background-color 0.3s; /* transition de couleur */
+    margin: auto;
+  }
+  
+  nav button:hover {
+    background-color: black; /* couleur de fond au survol */
+  }
+  

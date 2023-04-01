@@ -1,0 +1,84 @@
+/* Style de base pour la page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Style pour l'en-tête */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav li:first-child {
+    margin-left: 0;
+  }
+  
+  nav button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Style pour le corps de la page */
+  main {
+    margin: 20px;
+  }
+  
+  main h2 {
+    margin-top: 0;
+  }
+  
+  /* Style pour les éléments de formulaire */
+  form {
+    display: inline-block;
+  }
+  
+  form button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #c62828;
+  }
+  
+  /* Style pour le texte du pseudo */
+  .pseudo {
+    font-weight: bold;
+    color: #4CAF50;
+  }
+  
